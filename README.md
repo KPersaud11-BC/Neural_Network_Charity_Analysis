@@ -32,7 +32,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 
 In this attempt, in addition to dropping the columns ```EIN``` and ```NAME```, I dropped ```STATUS``` and ```SPECIAL_CONSIDERATIONS``` during preprocessing. I also changed the classification buckets to <500. This created a smaller Other category.
 
-After running this model, this did not reach the 75% accuracy threshold. It achieved only 68.81%. These changes did not result in any major increase.
+After running this model, this did not reach the 75% accuracy threshold. It achieved only 69.81%. These changes did not result in any major increase.
 
 ![image](https://user-images.githubusercontent.com/84286467/138540349-7e472ca0-0e41-4a81-9550-fdd24d250d44.png)
 
@@ -56,3 +56,6 @@ After running the model, the accuracy increased to 57.68%.
 
 ![image](https://user-images.githubusercontent.com/84286467/138540538-86e62bcd-8f70-4c55-a2d6-c23f76cb7782.png)
 
+## Summary
+
+We unfortunately could not achieve an accuracy of 75% in any instance. Our initial model was 69.77%, the first modification made a minor increase to 69.81%, but the other two attempts decreased the accuracy significantly. I would not try running this model for additional epochs, as it would overfit the data. Instead of a deep neural network, I would utilize a Support Vector Machine, or SVM. SVMs would be a better choice for this dataset. First, it can handle unprocessed tabular data, so it eliminates time spent on preprocessing. Secondly, this is a binary classification problem that wouldn't be overfit after several epochs. The goal of an SVM is to "maximize the distance, rather than encompass all data within a boundary".
