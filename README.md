@@ -2,7 +2,7 @@
 
 ## Analysis Overview
 From Alphabet Soup’s business team, Beks received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization. For this Challenge, using my knowledge of machine learning and neural networks, I identify features in the provided dataset to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. This requires three parts;
-- preprocessing the csv data to be run in the neural network model
+- preprocess the csv data to be run in the neural network model
 - compile, train and evaluate the model for its accuracy
 - make three attempts to optimize the model by adjusting the preprocessing or by changing various parameters of the model.
 
