@@ -18,7 +18,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 - The columns ```EIN``` and ```NAME``` are identification information and have been removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
-- For this deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively. For each hidden layer, I used a "relu" activation function, and a "sigmoid" function for the output layer.
+- This deep-learning neural network model is made of two hidden layers, one with 80 neurons and the other with 30 neurons. For each hidden layer, I used a "relu" activation function, and a "sigmoid" function for the output layer.
 
 ![image](https://user-images.githubusercontent.com/84286467/138540179-b125ed70-6bbe-43cf-ada0-bb6a5e55d407.png)
 
